@@ -1,0 +1,1 @@
+<?phpif($_SERVER['REQUEST_METHOD']=="POST"){include('config.php');$newplace=$_POST['np'];$sql="INSERT INTO srcdest VALUES('0','$newplace')";$exec= mysqli_query($con,$sql) or die(mysqli_error($con));if($exec==1)header('location:Newplace.php?done=true');else echo 'Data not saved';}elseecho 'Forbidden access';?>
