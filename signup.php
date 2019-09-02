@@ -46,7 +46,7 @@
 					  
 					
 						<ul class="dropdown-menu">
-						  <li><a href="profile.php">Edit Profile</a></li>
+						  <li><a href="#">Edit Profile</a></li>
 						  <li><a href="logout.php">logout</a></li>
 						  
 						</ul>
